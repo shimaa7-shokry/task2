@@ -1,0 +1,63 @@
+body{
+    font-family: 'Rubik';
+}
+.navbar{
+
+background-color: #fff;
+}
+.navbar li a{
+    color: rgb(48, 45, 45);
+}
+header{
+    min-height: 100vh;
+    background-image: url(../images/header.jpg);
+   background-position:center ;
+    background-size:cover ; 
+}
+header .container-fluid{
+    position: absolute;
+    top:50% ;
+    margin-right: auto;
+}
+header h2 , header p{
+    color: rgb(39, 37, 37);
+}
+#About{
+    background-color: rgba(203, 202, 216, 0.952)  !important;
+}
+#About h3 {
+    color: rgb(130, 163, 160);
+
+}
+.card{
+    overflow: hidden;
+    background-color: rgb(209, 201, 201);
+}
+.card img{  
+    margin-bottom: -2px;
+    opacity: 1;
+    transform: scale(1) ;
+    transition: 1s;
+}
+
+.card img:hover{ 
+     opacity: 1.5;
+     transform: scale(1.2) ;
+}
+.feature{
+ margin-top: 70px;
+}/*
+#features{
+    margin-left: 110px;
+}*/
+footer{
+    height: 300px;
+    background-color: rgb(105, 104, 102);
+}
+
+footer ul li{
+    list-style: none;
+   text-align: justify ;
+}
+
+
